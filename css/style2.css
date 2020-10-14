@@ -10,6 +10,7 @@ html, body {
 body {
     background-image: linear-gradient(180deg,#dc4587, #ff8941 );
     display: flex;
+    justify-content: center;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -19,7 +20,7 @@ body {
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 25px;
     color: #2c2c2c;
 }
 .container-profil {
@@ -51,7 +52,7 @@ input {
     min-height: 54px;
     text-align: center;
     color: #545454;
-    margin: 10px 0;
+    margin: 5px 0;
     width: 100%;
     font-size: 1rem;
     font-weight: 900;
