@@ -4,7 +4,6 @@
 
 html, body {
     margin: 0;
-    height: 100vh;
 }
 
 body {
@@ -36,11 +35,13 @@ h1 {
     width: 200px;
     border-radius: 50%;
 }
-img {
+
+#image {
     width: 170px;
-    height: 190px;
+    height: 170px;
     border: 10px solid lightblue;
-    margin:auto;
+    margin: auto;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0 , .27);
 }
 
 form {
@@ -59,17 +60,74 @@ input {
     font-size: 1rem;
     font-weight: bold;
     outline: none;
-    border: 2px solid lightblue;
-    border-radius: 50px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: #c8e6e6;
+    box-shadow: inset 0px 0px 15px 0 rgb(68 136 133 )
 }
 
 input[type=submit] {
     text-transform: uppercase;
-    background-image: linear-gradient(180deg,#ff7954af, #fd267cf3 );
+    background-color: #dc4587;
+    margin-top: 20px;
     border-radius: 5px;
+    cursor: pointer;
     border: none;
     color: #fff;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0,  0.27);
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo1 {
+    width: 120px;
+    height: 120px;
+    border-bottom: 10px solid pink;
+    padding: 20px;
+    background-image: url("https://i.pinimg.com/originals/28/18/d4/2818d413a438293a5b155075cc03124a.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.border1 {
+    width: 10px;
+    height: 120px;
+    background-color: pink;
+}
+
+.photo2 {
+    width: 120px;
+    height: 120px;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1033213940/thumb/9.jpg");
+    background-position: center;
+    border-bottom: 10px solid pink;
+    background-size: cover;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+.photo3 {
+    width: 120px;
+    height: 120px;
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/9/d4/kot-britanets-belyi-pushistyi-ochki.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.photo4 {
+    width: 120px;
+    height: 120px;
+    background-image: url("https://i.pinimg.com/originals/89/83/9f/89839ff0392a698a7c13f2e1dc2a1d20.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 
