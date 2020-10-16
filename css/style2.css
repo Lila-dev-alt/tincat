@@ -79,7 +79,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #bc62dc;
+    background-color: lightblue;
+    color: #2c2c2c;
 }
 .container {
     display: flex;
@@ -89,7 +90,7 @@ input[type=submit]:hover {
 .photo1 {
     width: 120px;
     height: 120px;
-    border-bottom: 10px solid pink;
+    border-bottom: 10px solid lightblue;
     padding: 20px;
     background-image: url("https://i.pinimg.com/originals/28/18/d4/2818d413a438293a5b155075cc03124a.jpg");
     background-position: center;
@@ -99,7 +100,7 @@ input[type=submit]:hover {
 .border1 {
     width: 10px;
     height: 120px;
-    background-color: pink;
+    background-color: lightblue;
 }
 
 .photo2 {
@@ -107,7 +108,7 @@ input[type=submit]:hover {
     height: 120px;
     background-image: url("https://ak.picdn.net/shutterstock/videos/1033213940/thumb/9.jpg");
     background-position: center;
-    border-bottom: 10px solid pink;
+    border-bottom: 10px solid lightblue;
     background-size: cover;
 }
 
